@@ -7,9 +7,9 @@ public class Task2 {
         float f = 2.0f;
         char c = ' ';
         boolean bool = true;
-        
+
         String output = "H" + s + c + "w" + b + "rld" + c + f + c + bool;
-        System.out.println(output); 
+        System.out.println(output);
 
     }
 }
