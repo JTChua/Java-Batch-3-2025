@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task4 {
+public class PalindromeChecker {
 
   public static void main(String[] args) {
 
