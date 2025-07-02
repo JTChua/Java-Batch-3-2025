@@ -12,7 +12,6 @@ public class FindLargestNo {
         // Prompt user for three numbers
         System.out.println("Enter three numbers");
         for (int i = 0; i < 3; i++) {
-
             System.out.print("Number " + (i + 1) + ": ");
             numbers.add(scanner.nextInt());
         }
