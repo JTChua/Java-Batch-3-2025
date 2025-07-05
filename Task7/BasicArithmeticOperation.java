@@ -1,8 +1,8 @@
 
 public class BasicArithmeticOperation {
 
-  int a;
-  int b;
+  private int a;
+  private int b;
 
   public BasicArithmeticOperation(int a, int b) {
     this.a = a;
@@ -10,33 +10,30 @@ public class BasicArithmeticOperation {
   }
 
   public int sum() {
-    int s = a + b;
-    return s;
+    return a + b;
   }
 
   public int difference() {
-    int d = a - b;
-    return d;
+    return a - b;
   }
 
   public int product() {
-    int p = a * b;
-    return p;
+    return a * b;
   }
 
   public int qoutient() {
-    int q;
-    q = a / b;
-    return q;
-    // try {
-    // if (b > a) {
-    // throw new ArithmeticException("Cannot divide by zero.");
-    // }
-    // double q = a / b;
-    // return q;
-    // } catch (ArithmeticException e) {
-    // System.err.println(e.getMessage());
-    // }
+    try {
+      if (b == 0) {
+        throw new ArithmeticException("Cannot divide by zero.");
+      }
+      if (a == 0) {
+        return 0;
+      }
+      return a / b;
+    } catch (ArithmeticException e) {
+      System.err.println(e.getMessage());
+      return 0;
+    }
   }
 
   @Override
