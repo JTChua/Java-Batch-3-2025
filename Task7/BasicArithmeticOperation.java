@@ -28,6 +28,15 @@ public class BasicArithmeticOperation {
     int q;
     q = a / b;
     return q;
+    // try {
+    // if (b > a) {
+    // throw new ArithmeticException("Cannot divide by zero.");
+    // }
+    // double q = a / b;
+    // return q;
+    // } catch (ArithmeticException e) {
+    // System.err.println(e.getMessage());
+    // }
   }
 
   @Override

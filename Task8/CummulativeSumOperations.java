@@ -1,0 +1,14 @@
+
+public class CummulativeSumOperations {
+
+  public CummulativeSumOperations(int... numbers) {
+
+  }
+
+  // https://www.google.com/search?q=cumulative+sum+in+java+using+varargs+for+input&sca_esv=c74c9e9d98f030ff&ei=741oaKOHN9je2roPnIKEmQw&ved=0ahUKEwjjuqf-1aSOAxVYr1YBHRwBIcMQ4dUDCBA&uact=5&oq=cumulative+sum+in+java+using+varargs+for+input&gs_lp=Egxnd3Mtd2l6LXNlcnAiLmN1bXVsYXRpdmUgc3VtIGluIGphdmEgdXNpbmcgdmFyYXJncyBmb3IgaW5wdXQyBRAhGKABMgUQIRigATIFECEYoAEyBRAhGKABSMTVAVCJDliurgFwAngBkAEAmAF_oAHgG6oBBDQ0LjK4AQPIAQD4AQGYAjCgArUewgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAgoQABiABBhDGIoFwgILEAAYgAQYkQIYigXCAg0QABiABBixAxhDGIoFwgIIEAAYgAQYsQPCAgsQABiABBixAxiDAcICDhAAGIAEGLEDGIMBGIoFwgIIEC4YgAQYsQPCAgUQABiABMICDhAuGIAEGLEDGNEDGMcBwgIFEC4YgATCAgoQABiABBixAxgKwgINEAAYgAQYsQMYgwEYCsICHRAuGIAEGLEDGNEDGMcBGJcFGNwEGN4EGOAE2AEBwgIHEAAYgAQYCsICBhAAGBYYHsICCxAAGIAEGIYDGIoFwgIIEAAYgAQYogTCAggQABiiBBiJBcICBBAhGBXCAgcQIRigARgKwgIGECEYFRgNmAMAiAYBkAYKugYGCAEQARgUkgcENDMuNaAHttwBsgcENDEuNbgHqx7CBwowLjEyLjI2LjEwyAeJAg&sclient=gws-wiz-serp
+
+  public static void main(String[] args) {
+
+  }
+
+}
