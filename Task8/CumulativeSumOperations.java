@@ -1,11 +1,11 @@
 
-public class CummulativeSumOperations {
+public class CumulativeSumOperations {
 
   private int[] numbers;
   private int[] cumulativeSums;
   private int totalSum;
 
-  public CummulativeSumOperations(int... numbers) {
+  public CumulativeSumOperations(int... numbers) {
     this.numbers = numbers;
     this.cumulativeSums = calculateCumulativeSums();
     this.totalSum = calculateTotalSum();
@@ -69,11 +69,11 @@ public class CummulativeSumOperations {
 
   public static void main(String[] args) {
 
-    CummulativeSumOperations cs1 = new CummulativeSumOperations(1, 2, 3, 4, 5);
+    CumulativeSumOperations cs1 = new CumulativeSumOperations(1, 2, 3, 4, 5);
     cs1.printCumulativeSums();
     cs1.printSum();
 
-    CummulativeSumOperations cs2 = new CummulativeSumOperations(10, 20, 30);
+    CumulativeSumOperations cs2 = new CumulativeSumOperations(10, 20, 30);
     cs2.printCumulativeSums();
     cs2.printSum();
 
